@@ -1,0 +1,35 @@
+@media screen and (max-width: 1000px) {
+  nav .nav-icons {
+    display: none;
+  }
+  header h1 {
+    font-size: 35px !important;
+  }
+  footer .col-md-6,
+  footer .info p {
+    text-align: center !important;
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  nav .container {
+    min-width: 95%;
+    margin: auto;
+  }
+  .get .ss h3 {
+    font-size: 28px !important;
+  }
+
+  .sittings {
+    display: none !important;
+  }
+  .mouse {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header h1 {
+    font-size: 30px !important;
+  }
+}
